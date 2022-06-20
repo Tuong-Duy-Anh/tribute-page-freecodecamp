@@ -1,0 +1,105 @@
+/* reset */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* $font-family-sans-serif:
+  // Safari for macOS and iOS (San Francisco)
+  -apple-system,
+  // Chrome < 56 for macOS (San Francisco)
+  BlinkMacSystemFont,
+  // Windows
+  "Segoe UI",
+  // Android
+  "Roboto",
+  // Basic web fallback
+  "Helvetica Neue", Arial, sans-serif,
+  // Emoji fonts
+  "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !default; */
+
+/* config */
+
+html,
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Helvetica Neue", Arial,
+    sans-serif;
+  line-height: 1.5;
+  font-size: 10px;
+  color: #333;
+  text-align: center;
+}
+
+#main {
+  font-size: 1.6rem;
+  background-color: #eee;
+  margin: 30px 8px;
+  padding: 15px;
+}
+
+h1 {
+  font-size: 4rem;
+  margin-top: 27px;
+}
+
+.title p {
+  margin: 16px 0;
+}
+
+.img-container {
+  background-color: white;
+  padding: 10px;
+}
+
+.img-container .img-div img {
+  height: auto;
+  max-width: 100%;
+}
+
+#image-caption {
+  margin-top: 9px;
+  margin-bottom: 5px;
+}
+
+.time-line h3 {
+  margin: 50px 0;
+}
+
+.time-line ul {
+  max-width: 590px;
+  text-align: left;
+  margin: 0 auto 50px auto;
+  line-height: 1.6;
+  padding-left: 40px;
+}
+
+.time-line ul li {
+  margin: 16px 0;
+}
+
+.time-line blockquote {
+  margin: 0 auto 50px auto;
+  max-width: 545px;
+  text-align: left;
+  font-style: italic;
+}
+
+.time-line blockquote p {
+  margin: 16px 0;
+}
+
+@media only screen and (max-width: 460px) {
+  h1 {
+    font-size: 3.5rem;
+    line-height: 1.2;
+  }
+
+  #main {
+    margin: 0;
+  }
+
+  #img-caption {
+    font-size: 1.4rem;
+  }
+}
